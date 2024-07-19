@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    height:100vh;
+    background-color: gray
+
+}
+.container{
+    height: max-content;
+    width: auto;
+    background-color: 
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+ input{
+    width:500px;
+    height: 40px;
+    border-radius: 20px;
+ } 
+ .button{
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.recipe{
+    width: 400px;
+    height: 500px;
+    background-color: azure;
+    margin-top: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+img{
+    width:400px;
+    height: 300px;
+}
+.btn{
+    height:50px;
+    font-size: xx-large;
+    background-color: orangered;
+    margin-top: 10px;
+    border-radius: 10px;
+    width:100px;
+}
+
+.container_info{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    width: 400px;
+    margin: auto;
+    color: white;
+    padding-top: 100px;
+    font-size: x-large;
+}
